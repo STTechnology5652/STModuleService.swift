@@ -1,0 +1,25 @@
+PODS:
+  - STComponentTools/STAnnotation (0.0.1)
+  - STComponentTools/STModuleService (0.0.1):
+    - STComponentTools/STAnnotation
+  - STModuleService.swift (0.0.1):
+    - STComponentTools/STModuleService
+
+DEPENDENCIES:
+  - STModuleService.swift (from `../`)
+
+SPEC REPOS:
+  https://github.com/STTechnology5652/STSpecs.git:
+    - STComponentTools
+
+EXTERNAL SOURCES:
+  STModuleService.swift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  STComponentTools: 63978b6d3a9edd404c4a3bed084a7fe88cbb32e1
+  STModuleService.swift: 2d12d375ea036657258959ee90db9789555dcd40
+
+PODFILE CHECKSUM: c2af22d50b1821f6638014b7858ccd046c92134b
+
+COCOAPODS: 1.14.3
